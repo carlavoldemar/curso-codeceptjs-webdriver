@@ -1,0 +1,24 @@
+{
+  "name": "automacao-codeceptjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@wdio/selenium-standalone-service": "^7.30.0",
+    "allure-codeceptjs": "^3.3.0",
+    "codeceptjs": "^3.7.3",
+    "webdriverio": "^8.44.1"
+  },
+  "dependencies": {
+    "automacao-codeceptjs": "file:",
+    "gerador-validador-cpf": "^6.3.0",
+    "mochawesome": "^7.1.3"
+  }
+}
